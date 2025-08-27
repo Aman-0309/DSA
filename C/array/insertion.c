@@ -1,68 +1,68 @@
 #include <stdio.h>
 
 int main () {
-// <<<<<<<<<<<<< insertion at the Beginning.. >>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<< insertion at the Beginning.. >>>>>>>>>>>>>>>>
 
-  // printf(" Let's Insert an element at the beginning of an array \n");
-  //     int arr [100] , num , size;
-  //      printf ("Enter the size of the array : ");
-  //      scanf ("%d", &size);
+  printf("\n Let's Insert an element at the beginning of an array \n");
+      int arr [100] , num , size;
+       printf (" \n Enter the size of the array : ");
+       scanf ("%d", &size);
 
-  //      // input the array
-  //      printf("Enter the elements of array : ");
-  //      for(int i=0; i<size; i++){
-  //       scanf("%d" , &arr[i]);
-  //      }
+       // input the array
+       printf("Enter the elements of array : ");
+       for(int i=0; i<size; i++){
+        scanf("%d" , &arr[i]);
+       }
      
-  //      printf("Enter the number you want to insert at begnning : ");
-  //      scanf("%d" , &num);
+       printf("Enter the number you want to insert at begnning : ");
+       scanf("%d" , &num);
 
-  //      // shifting the array into right 
-  //      for(int i=size; i>0; i--){
-  //        arr[i] = arr[i-1];
-  //       }
-  //       arr[0] = num;
-  //       size++; // new size after inserion
+       // shifting the array into right 
+       for(int i=size; i>0; i--){
+         arr[i] = arr[i-1];
+        }
+        arr[0] = num;
+        size++; // new size after inserion
 
-  //      // printing the array..
-  //      printf("The new array is : ");
-  //      for(int i=0; i<size; i++){
-  //       printf("%d ", arr[i]);
-  //      }
-
-
+       // printing the array..
+       printf("\n The new array is : ");
+       for(int i=0; i<size; i++){
+        printf("%d ", arr[i]);
+       }
 
 
 
-// <<<<<<<<<<<<<<<<<<<<<<<< insertion at the end >>>>>>>>>>>>>>>>>>>>>>>>>
-  //  printf(" Let's Insert an element at the end of an array \n");
-  //     int arr [100] , num , size;
-  //      printf ("Enter the size of the array : ");
-  //      scanf ("%d", &size);
 
-  //      // input the array
-  //      printf("Enter the elements of array : ");
-  //      for(int i=0; i<size; i++){
-  //       scanf("%d" , &arr[i]);
-  //      }
+
+//<<<<<<<<<<<<<<<<<<<<<<<< insertion at the end >>>>>>>>>>>>>>>>>>>>>>>>>
+   printf("\n Let's Insert an element at the end of an array \n");
+      int arr [100] , num , size;
+       printf ("\n Enter the size of the array : ");
+       scanf ("%d", &size);
+
+       // input the array
+       printf("Enter the elements of array : ");
+       for(int i=0; i<size; i++){
+        scanf("%d" , &arr[i]);
+       }
      
-  //      printf("Enter the number you want to insert at end : ");
-  //      scanf("%d" , &num);
+       printf("Enter the number you want to insert at end : ");
+       scanf("%d" , &num);
 
-  //       arr[size] = num;
-  //       size++; // new size after inserion
+        arr[size] = num;
+        size++; // new size after inserion
 
-  //      // printing the array..
-  //      printf("The new array is : ");
-  //      for(int i=0; i<size; i++){
-  //       printf("%d ", arr[i]);
-  //      }
+       // printing the array..
+       printf("\n The new array is : ");
+       for(int i=0; i<size; i++){
+        printf("%d ", arr[i]);
+       }
 
 // <<<<<<<<<<<<<<<<<< insertion at ith position of an array..>>>>>>>>>>>>>>>>
 
-  printf(" Let's Insert an element at ith position of an array \n");
+  printf("\n Let's Insert an element at ith position of an array \n");
       int arr [100] , num , size , position ,i;
-       printf ("Enter the size of the array : ");
+       printf ("\n Enter the size of the array : ");
        scanf ("%d", &size);
 
        // input the array
@@ -84,7 +84,7 @@ int main () {
         size++; // new size after inserion
 
        // printing the array..
-       printf("The new array is : ");
+       printf("\n The new array is : ");
        for(int i=0; i<size; i++){
         printf("%d ", arr[i]);
        }
