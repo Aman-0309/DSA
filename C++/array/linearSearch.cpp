@@ -20,12 +20,12 @@ int main (){
    bool found = false;      // flag which will be updated later 
     for(int i=0; i<size; i++){
        if(arr[i] == target){
-        cout <<"The target is at "<<  (i + 1);
+        cout <<"The target is at "<<  (i + 1) << endl;
         found = true;       // flag found 
        }
 
        }
         if(!found){
-        cout << "Target not found!";
+        cout << "Target not found!" << endl;
     }
 }
