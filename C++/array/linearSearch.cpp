@@ -4,7 +4,7 @@ using namespace std;
 int main (){
 
 //<<<<<<<<<<<<<<<<<<<<< linear search >>>>>>>>>>>>>>>>>
-
+cout <<"Lets apply linear search in the array"<< endl;
     int arr[100] , size , target;
     cout << "Enter the size of an array : ";
     cin >> size;
