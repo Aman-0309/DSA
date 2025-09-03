@@ -24,7 +24,7 @@ int ans = 0;
 for (int value : nums){
   ans = ans ^ value;
 }
-cout << "The single number is : " << ans;
+cout << "The single number is : " << ans << endl;
 
 
 }
