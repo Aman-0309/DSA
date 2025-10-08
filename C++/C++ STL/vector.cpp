@@ -75,4 +75,24 @@ int main(){
 
     vec1.clear();
     cout <<"vector is empty: " << vec1.empty();
+
+
+
+//............ Iterators................
+    vector<int> nums = {10, 20, 30, 40, 50};
+
+    // Forward iterator
+    cout << "Forward iteration: ";
+    for (auto it = nums.begin(); it != nums.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
+    // Backward iterator
+    cout << "Backward iteration: ";
+    for (auto it = nums.rbegin(); it != nums.rend(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+
 }
