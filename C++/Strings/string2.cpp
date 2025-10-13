@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    // Palindrome check
+    //............Palindrome check..........
 
     string str = "A man, a plan, a canal: Panama";
     bool isPalindrome = true; //flag
@@ -34,4 +34,15 @@ int main(){
         cout << "Result : Not a Valid palindrome";
     }
 
+
+
+    //...............Remove all occurance.......
+    string str = "basdsasddasdasdk";
+    cout << "Strig : " << str << endl;
+    string part = "asd";
+
+    while(str.length() > 0 && str.find(part) < str.length()){ //find >> intial positon
+        str.erase(str.find(part) , part.length()); //erase
+    }
+    cout << "Result String : " << str <<endl;
 }
